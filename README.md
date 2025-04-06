@@ -1,4 +1,4 @@
-# 🖤 SOLO D.E.V - Personagens de Shadow Realm
+# 🖤 SOLO D.E.V - Alguns Personagens de S. L.
 
 🎮 Uma aplicação interativa inspirada no universo de **Solo Leveling**, que permite explorar os personagens do Exército das Sombras com animações, trilha sonora dinâmica e visual moderno. Ideal para demonstrar habilidades em **HTML, CSS, JavaScript** e animações web.
 
