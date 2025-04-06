@@ -1,6 +1,7 @@
 body {
     background-color: #000000;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 
 }
 
@@ -13,7 +14,7 @@ main::after {
     min-height: 100vh;
     width: 80vh;
 
-    background: linear-gradient(92deg, #000 35%, rgba(0, 0, 0, 0) 75%) no-repeat;
+    background: linear-gradient(92deg, #000 20%, rgba(0, 0, 0, 0) 70%) no-repeat;
 
 }
 
@@ -39,14 +40,15 @@ main .personagem .imagem {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     max-width: 380px;
     z-index: 1;
 }
 
 .conteudo .nome-personagem {
     color: #890095;
-    font-size: 48px;
+    font-size: 4vw;
+    word-break: break-word;
     font-family: "Secular One";
     font-weight: 400;
     margin-bottom: 20px;
