@@ -121,7 +121,7 @@ Se quiser contribuir, sinta-se à vontade para abrir um Pull Request ou issue!
 
 ## 👨‍💻 Autor
 
-Feito com 💻 e ❤️ por [Lucas Mateus do Santos](https://github.com/AngorDrot)  
+Feito com 💻 e ❤️ por [Lucas Mateus do Santos Looze](https://github.com/AngorDrot)  
 Contato: [lucaslooze@hotmail.com](mailto:lucaslooze@hotmail.com)
 
 
