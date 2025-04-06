@@ -16,25 +16,34 @@ A cada clique em um personagem, seu perfil é exibido com descrição, imagem e 
 
 ---
 
+## 🚀 Demonstração
+
+🔗 [Acesse o projeto online](https://angordrot.github.io/SOLO-DEV/) — via GitHub Pages
+
+📦 [Repositório no GitHub](https://github.com/AngorDrot/SOLO-DEV)
+
+---
+
 ## 📂 Estrutura de Pastas
 
 ```plaintext
 .
-├── index.html                # Página principal
-├── README.md                 # Este arquivo
+├── index.html              # Página principal
+├── README.md               # Este arquivo
 └── src/
     ├── css/
-    │   ├── reset.css         # Reset de estilos padrão
-    │   ├── estilos.css       # Estilos principais
-    │   └── responsivo.css    # Estilos para responsividade
+    │   ├── reset.css       # Reset de estilos padrão
+    │   ├── estilos.css     # Estilos principais
+    │   └── responsivo.css  # Estilos para responsividade
     ├── js/
-    │   └── index.js          # Script de troca de personagens e controle de música
+    │   └── index.js        # Script de troca de personagens e controle de música
     ├── audio/
-    │   ├── audio.mp3         # Trilha sonora alternativa
-    │   └── musica.mp3        # Trilha padrão (autoplay)
-    ├── imagens/
-    │   └── ...               # Imagens dos personagens e botões
-    └── fontes/               # (Opcional) fontes personalizadas se houver
+    │   ├── audio.mp3       # Trilha sonora alternativa
+    │   └── musica.mp3      # Trilha padrão (autoplay)
+    ├── imagens/            # Imagens dos personagens e botões
+    ├── fontes/             # (Opcional) fontes personalizadas se houver
+    └── favicon/
+        └── favicon.ico     # Ícone da aba do navegador (favicon)
 ```
 
 ---
@@ -101,6 +110,19 @@ Você pode alterar:
 
 ---
 
+### 🎨 Personalização
+
+Você pode alterar livremente os estilos, cores e conteúdos visuais do projeto:
+
+- **Imagens de fundo e personagens:** estão localizadas em `./src/imagens`
+- **Trilha sonora:** dois arquivos de música disponíveis em `./src/audio`, escolha um para autoplay no HTML
+- **Fontes personalizadas:** insira em `./src/fontes` e referencie no CSS
+
+🔹 O **favicon** do projeto pode ser personalizado alterando a imagem em `./src/favicon/favicon.ico`.  
+O ideal é usar uma imagem quadrada de **64x64** ou **32x32** pixels para garantir melhor compatibilidade entre navegadores.
+
+---
+
 ## 📌 Como Visualizar
 
 Se você baixou este repositório:
@@ -109,6 +131,16 @@ Se você baixou este repositório:
 2. Instale a extensão **Live Server**
 3. Clique com o botão direito em `index.html` → `Go Live`
 4. Veja o projeto rodando localmente em `http://localhost:5500/`
+
+---
+
+## 📚 Aprendizados
+
+Este projeto foi uma oportunidade de:
+- Praticar manipulação de DOM com `querySelector`, `classList`, `addEventListener`
+- Aplicar conceitos de responsividade sem frameworks
+- Criar interações visuais com `hover`, `transition` e `keyframes`
+- Publicar com GitHub Pages de forma gratuita
 
 ---
 
