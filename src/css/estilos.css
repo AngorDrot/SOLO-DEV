@@ -167,14 +167,14 @@ main .personagem .imagem {
   /* Botão redondo de música */
   .controle-musica {
     font-size: 30px;
-    background-color: rgba(0, 0, 0, 0.399);
+    background-color: rgba(230, 5, 5, 0.997);
     border: none;
     color: rgb(255, 255, 255);
     border-radius: 50%;
     width: 50px;
     height: 50px;
     cursor: pointer;
-    box-shadow: 0 0 40px #912626;
+    box-shadow: 0 0 40px #ffffff;
     transition: all 0.3s ease;
   }
   
